@@ -18,7 +18,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     pDirector->setOpenGLView(pEGLView);
 	
-    // 解像度を変更する
+	// 解像度を変更する(androidとiphone対応)
     pEGLView->setDesignResolutionSize(480, 320, kResolutionShowAll);
 
     // turn on display FPS
